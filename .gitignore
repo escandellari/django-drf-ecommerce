@@ -1,0 +1,10 @@
+# Folders
+.venv
+.coverage
+.pytest_cache
+.vscode
+**__pycache__/
+
+# File
+.env
+db.sqlite3
