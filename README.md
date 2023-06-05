@@ -57,3 +57,31 @@ python_files = test_*
 - Create a folder called tests
 - Add test files, with prefix `test_`
 - Run the test with `pytest`
+
+# Create an APP within a specific folder
+
+Run the following to create an app
+
+```bash
+./manage.py startapp <product_name> <folder>
+```
+
+Example:
+
+```bash
+./manage.py startapp product ./drfecommerce/product
+```
+
+## Add it to the settings
+
+In the base settings, add the <product_name> as specified above.
+
+If created in a specific folder, then it would be <folder>.<product_name>
+
+Example:
+
+```python
+"drfecommerce.product",
+```
+
+In the apps.py file define the same in the name
