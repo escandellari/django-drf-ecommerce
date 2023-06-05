@@ -3,3 +3,5 @@ djangorestframework
 pytest
 pytest-django
 python-dotenv
+flake8
+black

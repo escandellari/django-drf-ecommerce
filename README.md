@@ -13,6 +13,8 @@
 - python-dotenv
 - pytest
 - pytest-django
+- black
+- flake8
 
 ## Splitting settings into dev and prod
 
