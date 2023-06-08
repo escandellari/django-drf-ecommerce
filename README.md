@@ -87,3 +87,24 @@ Example:
 ```
 
 In the apps.py file define the same in the name
+
+# DRF SPECTACULAR
+
+pip install drf-spectacular
+
+- Create serializer for all the endpoints
+- Create views using ViewSets
+- Register the ViewSets within the urls
+- Add the following to the urlpatterns
+
+```python
+    path("api/", include(router.urls)),
+    path("api/schema", SpectacularAPIView.as_view(), name="schema"),
+    path("api/schema/docs", SpectacularSwaggerView.as_view(url_name="schema")),
+```
+
+- Run the following to create the schema
+
+```bash
+    ./manage.py spectacular --color --file schema.yml
+```
