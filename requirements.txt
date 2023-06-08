@@ -6,3 +6,4 @@ python-dotenv
 flake8
 black
 django-mptt
+drf-spectacular

@@ -16,6 +16,7 @@
 - black
 - flake8
 - django-mptt
+- drf-spectacular
 
 ## Splitting settings into dev and prod
 
