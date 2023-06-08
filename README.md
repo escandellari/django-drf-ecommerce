@@ -15,6 +15,7 @@
 - pytest-django
 - black
 - flake8
+- django-mptt
 
 ## Splitting settings into dev and prod
 
