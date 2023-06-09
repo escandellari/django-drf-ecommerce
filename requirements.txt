@@ -7,3 +7,6 @@ flake8
 black
 django-mptt
 drf-spectacular
+coverage
+pytest-coverage
+pytest-factoryboy

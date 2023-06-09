@@ -5,6 +5,10 @@
 .vscode
 **__pycache__/
 
+htmlcov
+
 # File
 .env
 db.sqlite3
+schema.yml
+Django DRF eCommerce.yaml

@@ -44,22 +44,6 @@ print(get_random_secret_key())
 
 Once you have the key, copy it into the base.py file
 
-## Pytest
-
-- pip install pytest
-- pip install pytest-django
-- Add pytest.ini file and add the following
-
-```ini
-[pytest]
-DJANGO_SETTINGS_MODULE = drfecommerce.settings.development
-python_files = test_*
-```
-
-- Create a folder called tests
-- Add test files, with prefix `test_`
-- Run the test with `pytest`
-
 # Create an APP within a specific folder
 
 Run the following to create an app
@@ -87,6 +71,32 @@ Example:
 ```
 
 In the apps.py file define the same in the name
+
+## Pytest
+
+- pip install pytest
+- pip install pytest-django
+- Add pytest.ini file and add the following
+
+```ini
+[pytest]
+DJANGO_SETTINGS_MODULE = drfecommerce.settings.development
+python_files = test_*
+```
+
+- Create a folder called tests
+- Add test files, with prefix `test_`
+- Run the test with `pytest`
+
+## Factoryboy
+
+- pip install pytest-factoryboy
+
+### Coverage
+
+- pip install coverage
+- pip install pytest-coverage
+- pytest --cov
 
 # DRF SPECTACULAR
 
